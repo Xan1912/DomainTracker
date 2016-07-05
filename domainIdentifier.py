@@ -1,5 +1,8 @@
 from tld import get_tld
 
+def getUrl():
+	raw_input("Enter company name:")
+	url = "https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q="
 
 
 def get_domain_name(url):
@@ -7,7 +10,7 @@ def get_domain_name(url):
 	return domain_name
 
 def main():
-	url = "http://www.totalpest.co/"
+	url = ""
 	name = get_domain_name(url)
 	print name
 
